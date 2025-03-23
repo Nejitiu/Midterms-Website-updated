@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Increases base text size */
+    margin: 0;
+    padding: 0;
+    background-image: url(https://assets.onecompiler.app/42z3u6cp6/43cmqkb85/dhs8wdf-a777a740-c620-4fda-a9fe-4216c6417ea4.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px; /* Larger title */
+}
+
+h2 {
+    font-size: 28px; /* Larger section titles */
+}
+
+p {
+    font-size: 20px; /* Bigger paragraph text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px; /* Bigger navigation links */
+}
+
+main {
+    padding: 30px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px; /* Increased padding for a larger section */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button {
+    font-size: 22px; /* Bigger button text */
+    padding: 15px 30px; /* Bigger button padding */
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+}

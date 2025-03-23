@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+    flex: 1;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.w-engine-card {
+    display: flex;
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.w-engine-card img {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+}
+.w-engine-info h2 {
+    margin: 0;
+    color: yellow;
+}
+.highlight {
+    color: orange;
+}
+
+.rarity-s {
+    color: yellow;
+    font-weight: bold;
+}
+
+.rarity-a {
+    color: purple;
+    font-weight: bold;
+}
+
+.rarity-b {
+    color: blue;
+    font-weight: bold;
+}

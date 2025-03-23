@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: white;
+}
+
+#driveDiskList {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.drive-disk-container {
+    background-color: #222;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.drive-disk-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.drive-disk-image {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.drive-disk-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.drive-disk-text {
+    flex: 1;
+    font-size: 18px;
+    text-align: left;
+}
+
+.drive-disk-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.drive-disk-info {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.drive-disk-recommended {
+    margin-top: 10px;
+}
+
+.drive-disk-recommended strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.drive-disk-recommended img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}

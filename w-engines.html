@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W-Engines</title>
+    <link rel="stylesheet" href="w-engines.css">
+</head>
+<body>
+    <header>
+        <h1>W-ENGINES</h1>
+        <input type="text" id="searchBox" placeholder="Search W-Engines...">
+        <button id="searchButton">Search</button>
+        <button id="resetButton">Reset</button>
+    </header>
+    <main>
+<div class="w-engine-card" data-name="blazing-laurel">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Blazing_Laurel.webp" alt="Blazing Laurel">
+    <div class="w-engine-info">
+        <h2>Blazing Laurel</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Signature:</strong> Lighter</p>
+        <p>Upon launching a Quick Assist or Perfect Assist, the equipper's Impact increases by 
+        <span class="highlight">25/28.75/32.5/36.25/40%</span> for 8s. When the equipper launches and hits an enemy with a Basic Attack, apply Wilt to the target for 30s, stacking up to 20 times, repeated triggers reset the duration. When any squad member hits an enemy, for every stack of Wilt applied to the target, the CRIT DMG of the Ice DMG and Fire DMG dealt by that attack increases by 
+        <span class="highlight">1.5/1.72/1.95/2.17/2.4%</span>. Only one of this effect can be active at a time in the same squad.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Impact (Lv 60):</strong> 18%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="deep-sea-visitor">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Deep_Sea_Visitor.webp" alt="Deep Sea Visitor">
+    <div class="w-engine-info">
+        <h2>Deep Sea Visitor</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack | <strong>Attribute:</strong> Ice</p>
+        <p><strong>Signature:</strong> Ellen Joe</p>
+        <p>Increases Ice DMG by <span class="highlight">25/31.25/37.5/43.75/50%</span>. Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by 
+        <span class="highlight">10/12.5/15/17.5/20%</span> for 8s.</p>
+        <p>When dealing Ice DMG with a Dash Attack, the equipper's CRIT Rate increases by an additional 
+        <span class="highlight">10/12.5/15/17.5/20%</span> for 15s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>CRIT Rate (Lv 60):</strong> 24%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="starlight-engine">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Starlight_Engine.webp" alt="Starlight Engine">
+    <div class="w-engine-info">
+        <h2>Starlight Engine</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p>Upon launching a Dodge Counter or Quick Assist, the equipper's ATK increases by 
+        <span class="highlight">12/13.8/15.6/17.4/19.2%</span> for 12s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>ATK Bonus (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="street-superstar">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Street_Superstar.webp" alt="Street Superstar">
+    <div class="w-engine-info">
+        <h2>Street Superstar</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p>Whenever a squad member launches a Chain Attack, the equipper gains 1 Charge stack, stacking up to 3 times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by 
+        <span class="highlight">15/17.4/19.8/22.2/24%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>ATK Bonus (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="lunar-decrescent">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Decrescent.webp" alt="Lunar Decrescent">
+    <div class="w-engine-info">
+        <h2>[Lunar] Decrescent</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Attack</p>
+        <p>Launching a Chain Attack or Ultimate increases the equipper's DMG by 
+        <span class="highlight">15/17.5/20/22.5/25%</span> for 6s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>ATK Bonus (Lv 60):</strong> 20%</p>
+        <p><strong>Description:</strong> Details about this W-Engine’s background and lore are currently unavailable.</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="lunar-noviluna">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Noviluna.webp" alt="Lunar Noviluna">
+    <div class="w-engine-info">
+        <h2>[Lunar] Noviluna</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Attack</p>
+        <p>Launching an EX Special Attack generates 3 Energy for the equipper. This effect can trigger once every 12s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>CRIT Rate (Lv 60):</strong> 16%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="lunar-pleniluna">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Pleniluna.webp" alt="Lunar Pleniluna">
+    <div class="w-engine-info">
+        <h2>[Lunar] Pleniluna</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Attack</p>
+        <p>Basic Attack, Dash Attack, and Dodge Counter DMG increases by 
+        <span class="highlight">12/14/16/18/20%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 476 | <strong>ATK Bonus (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="fusion-compiler">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Fusion_Compiler.webp" alt="Fusion Compiler">
+    <div class="w-engine-info">
+        <h2>Fusion Compiler</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Anomaly</p>
+        <p><strong>Signature:</strong> Grace</p>
+        <p>Increases Electric DMG by <span class="highlight">20/25/30/35/40%</span>.</p>
+        <p>When using a Special Attack or an EX Special Attack, the equipper's Anomaly Proficiency is increased by <span class="highlight">25</span> for 8s, stacking up to 3 times. The duration of each stack is calculated separately.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 684 | <strong>PEN Ratio (Lv 60):</strong> 24%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="electro-lip-gloss">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Electro-Lip_Gloss.webp" alt="Electro-Lip Gloss">
+    <div class="w-engine-info">
+        <h2>Electro-Lip Gloss</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Anomaly</p>
+        <p>When there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by 
+        <span class="highlight">10/11.5/13/14.5/16%</span>.</p>
+        <p>Additionally, the equipper deals <span class="highlight">15/17/19/22/25%</span> more DMG to the affected target.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Anomaly Proficiency (Lv 60):</strong> 75</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="rainforest-gourmet">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Rainforest_Gourmet.webp" alt="Rainforest Gourmet">
+    <div class="w-engine-info">
+        <h2>Rainforest Gourmet</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Anomaly</p>
+        <p>Whenever your squad consumes 10 Energy, the equipper gains a buff that increases ATK by 
+        <span class="highlight">2.5/3/3.5/3.75/4%</span> for 10s.</p>
+        <p>This effect can stack up to 10 times, with each stack's duration calculated separately.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Anomaly Proficiency (Lv 60):</strong> 75</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="roaring-ride">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Roaring_Ride.webp" alt="Roaring Ride">
+    <div class="w-engine-info">
+        <h2>Roaring Ride</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Anomaly</p>
+        <p><strong>Signature:</strong> Piper</p>
+        <p>When an EX Special Attack hits an enemy, one of three possible effects is randomly triggered for 5s:</p>
+        <ul>
+            <li>Increases the equipper's ATK by <span class="highlight">8/9.6/10.4/11.2/12.8%</span>.</li>
+            <li>Increases the equipper's Anomaly Proficiency by <span class="highlight">40/46/52/58/64</span>.</li>
+            <li>Increases the equipper's Anomaly Buildup Rate by <span class="highlight">25/28/31/35/40%</span>.</li>
+        </ul>
+        <p>This effect can trigger once every 0.3s. The same types of effects cannot stack; repeated triggers reset the duration, allowing several effects to be active at once.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>ATK Bonus (Lv 60):</strong> 30%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="weeping-gemini">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Weeping_Gemini.webp" alt="Weeping Gemini">
+    <div class="w-engine-info">
+        <h2>Weeping Gemini</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Anomaly</p>
+        <p>Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by <span class="highlight">30/34/38/42/46</span>. This effect stacks up to 4 times and expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>ATK Bonus (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="magnetic-storm-alpha">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Alpha.webp" alt="[Magnetic Storm] Alpha">
+    <div class="w-engine-info">
+        <h2>[Magnetic Storm] Alpha</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Anomaly</p>
+        <p>Accumulating Anomaly Buildup increases the equipper's Anomaly Mastery by <span class="highlight">25/28/31/35/40</span> for 10s. This effect can trigger once every 20s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>ATK Bonus (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="magnetic-storm-bravo">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Bravo.webp" alt="[Magnetic Storm] Bravo">
+    <div class="w-engine-info">
+        <h2>[Magnetic Storm] Bravo</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Anomaly</p>
+        <p>Accumulating Anomaly Buildup increases the equipper's Anomaly Proficiency by <span class="highlight">25/28/31/35/40</span> for 10s. This effect can trigger once every 20s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 356 | <strong>Anomaly Proficiency (Lv 60):</strong> 60</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="magnetic-storm-charlie">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Charlie.webp" alt="[Magnetic Storm] Charlie">
+    <div class="w-engine-info">
+        <h2>[Magnetic Storm] Charlie</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Anomaly</p>
+        <p>Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates <span class="highlight">3.5/4/4.5/5/5.5</span> Energy. This effect can trigger once every 12s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>PEN Ratio (Lv 60):</strong> 16%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="big-cylinder">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Big_Cylinder.webp" alt="Big Cylinder">
+    <div class="w-engine-info">
+        <h2>Big Cylinder</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Defense</p>
+        <p><strong>Signature:</strong> Ben Bigger</p>
+        <p>Reduces damage taken by <span class="highlight">7.5/8.6/9.8/10.9/12%</span>.</p>
+        <p>After being attacked, the next attack that hits an enemy will be a critical hit and deal additional damage equal to <span class="highlight">600%</span> of the equipper's DEF. This effect can be triggered once every 7.5s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>DEF Bonus (Lv 60):</strong> 40%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="bunny-band">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Bunny_Band.webp" alt="Bunny Band">
+    <div class="w-engine-info">
+        <h2>Bunny Band</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Defense</p>
+        <p>Increases Max HP by <span class="highlight">8/9.6/10.4/11.2/12.8%</span>.</p>
+        <p>Additionally, increases the equipper's ATK by <span class="highlight">10/11.2/12.4/14.2/16%</span> when they are shielded.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>DEF Bonus (Lv 60):</strong> 40%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="original-transmorpher">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Original_Transmorpher.webp" alt="Original Transmorpher">
+    <div class="w-engine-info">
+        <h2>Original Transmorpher</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Defense</p>
+        <p><strong>Effect (Starlight Knight Flying Kick):</strong> Increases Max HP by <span class="highlight">8/9.2/10.4/11.6/12%</span>. Additionally, when attacked, the equipper's Impact is increased by <span class="highlight">10/11.2/12.8/14.4/16%</span> for 12s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>HP Bonus (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="spring-embrace">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Spring_Embrace.webp" alt="Spring Embrace">
+    <div class="w-engine-info">
+        <h2>Spring Embrace</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Defense</p>
+        <p><strong>Effect (Hot Spring Soup):</strong> Reduces damage taken by <span class="highlight">7.5%</span>. When attacked, the equipper's Energy Generation Rate increases by <span class="highlight">10%</span> for 12s. When the equipper switches off-field, this buff transfers to the new on-field character with its duration refreshed. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>ATK Bonus (Lv 60):</strong> 10%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="identity-base">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Base.webp" alt="[Identity] Base">
+    <div class="w-engine-info">
+        <h2>[Identity] Base</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Defense</p>
+        <p><strong>When attacked, the equipper's DEF increases by 20% for 8s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>ATK Bonus (Lv 60):</strong> 10%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="identity-inflection">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Inflection.webp" alt="[Identity] Inflection">
+    <div class="w-engine-info">
+        <h2>[Identity] Inflection</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Defense</p>
+        <p>When attacked, reduces the attacker's DMG by <span class="highlight">6/7.2/8.4/9.6/10%</span> for 12 seconds.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>DEF Bonus (Lv 60):</strong> 12.8%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="hellfire-gears">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Hellfire_Gears.webp" alt="Hellfire Gears">
+    <div class="w-engine-info">
+        <h2>Hellfire Gears</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Signature:</strong> Koleda</p>
+        <p>While off-field, the equipper's Energy Regen increases by <span class="highlight">0.6</span> per second at Rank 1, scaling up to <span class="highlight">1.2</span> per second at Rank 5. When using an EX Special Attack, the equipper's Impact increases by <span class="highlight">10%</span> for 10 seconds at Rank 1, scaling up to <span class="highlight">20%</span> at Rank 5, stacking up to two times. The duration of each stack is calculated separately.</p>
+        <p><strong>Base ATK:</strong> 684 | <strong>Impact:</strong> 18%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="ice-jade-teapot">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Ice-Jade_Teapot.webp" alt="Ice-Jade Teapot">
+    <div class="w-engine-info">
+        <h2>Ice-Jade Teapot</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Signature:</strong> Qingyi</p>
+        <p><strong>Effect:</strong> When a Basic Attack hits an enemy, the equipper gains a stack of <span class="highlight">Tea-riffic</span>. Each stack increases the equipper's Impact by <span class="highlight">0.7%–1.4%</span> for 8 seconds, stacking up to 30 times. When gaining Tea-riffic, if the equipper has 15 or more stacks, all squad members' DMG increases by <span class="highlight">20%–32%</span> for 10 seconds.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Impact (Lv 60):</strong> 18%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="the-restrained">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_The_Restrained.webp" alt="The Restrained">
+    <div class="w-engine-info">
+        <h2>The Restrained</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Signature:</strong> Von Lycaon</p>
+        <p><strong>Base ATK (Lv 60):</strong> 684 | <strong>Impact (Lv 60):</strong> 18%</p>
+        <p><strong>Effect (Binding Chains):</strong> When an attack hits an enemy, DMG and Daze from Basic Attacks increase by <span class="highlight">12%</span> for 8 seconds, stacking up to 5 times. This effect can trigger at most once during each skill. The duration of each stack is calculated separately.</p>
+        <p><strong>Release Date:</strong> July 4, 2024 (Version 1.0)</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="demara-battery-mark-ii">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Demara_Battery_Mark_II.webp" alt="Demara Battery Mark II">
+    <div class="w-engine-info">
+        <h2>Demara Battery Mark II</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Signature:</strong> Anby</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>Impact (Lv 60):</strong> 15%</p>
+        <p><strong>Effect (In a Flash of Light):</strong> Increases Electric DMG by <span class="highlight">15%</span>.</p>
+        <p>When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by <span class="highlight">18%</span> for 8 seconds.</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="precious-fossilized-core">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Precious_Fossilized_Core.webp" alt="Precious Fossilized Core">
+    <div class="w-engine-info">
+        <h2>Precious Fossilized Core</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Impact (Lv 60):</strong> 15%</p>
+        <p><strong>Effect (Behemoth Hunter):</strong> When the target's HP is no lower than 50%, the equipper inflicts 10% more Daze.</p>
+        <p>When the target's HP is no lower than 75%, this bonus is further enhanced by 10%.</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="six-shooter">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Six_Shooter.webp" alt="Six Shooter">
+    <div class="w-engine-info">
+        <h2>Six Shooter</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Impact (Lv 60):</strong> 15%</p>
+        <p><strong>Effect (Fire!):</strong> The equipper gains 1 Charge stack every 3 seconds, stacking up to 6 times.</p>
+        <p>When launching an EX Special Attack, all Charge stacks are consumed, with each stack increasing the Daze inflicted by <span class="highlight">4%</span> at level 1, up to <span class="highlight">6.4%</span> at level 5.</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="steam-oven">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Steam_Oven.webp" alt="Steam Oven">
+    <div class="w-engine-info">
+        <h2>Steam Oven</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Stun</p>
+        <p>For every 10 Energy accumulated, the equipper's Impact is increased by 
+        <span class="highlight">2/2.3/2.6/2.9/3.2%</span>, stacking up to 8 times. After Energy is consumed, this bonus remains for 8 more seconds. The duration of each stack is calculated separately.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Energy Regen (Lv 60):</strong> 50%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="reverb-mark-i">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Mark_I.webp" alt="Reverb Mark I">
+    <div class="w-engine-info">
+        <h2>[Reverb] Mark I</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Support</p>
+        <p>Launching an EX Special Attack increases all squad members' Impact by 
+        <span class="highlight">8/9/10/11/12%</span> for 10s. This effect can trigger once every 20s. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>Attack (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="reverb-mark-ii">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Mark_II.webp" alt="Reverb Mark II">
+    <div class="w-engine-info">
+        <h2>[Reverb] Mark II</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Support</p>
+        <p>Launching an EX Special Attack or Chain Attack increases all squad members' Anomaly Mastery and Anomaly Proficiency by 
+        <span class="highlight">10/12/13/15/16</span> for 10s. This effect can trigger once every 20s. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>Energy Regen (Lv 60):</strong> 40%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="reverb-mark-iii">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Mark_III.webp" alt="Reverb Mark III">
+    <div class="w-engine-info">
+        <h2>[Reverb] Mark III</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Support</p>
+        <p>Launching a Chain Attack or Ultimate increases all squad members' ATK by 
+        <span class="highlight">8/9/10/11/12%</span> for 10s. This effect can trigger once every 20s. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>HP (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="weeping-cradle">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Weeping_Cradle.webp" alt="Weeping Cradle">
+    <div class="w-engine-info">
+        <h2>Weeping Cradle</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Support</p>
+        <p><strong>Signature:</strong> Rina</p>
+        <p>While off-field, Energy Regen increases by 
+        <span class="highlight">0.6/0.75/0.9/1.05/1.2</span> per second. Attacks from the equipper enhance the squad's DMG against a struck target by 
+        <span class="highlight">10/12.5/15/17.5/20%</span> for 3 seconds. During this period, this effect is further increased by 
+        <span class="highlight">1.7/2/2.5/3/3.3%</span> every 0.5s, up to a maximum additional increase of 
+        <span class="highlight">10.2/12/15/18/19.8%</span>. Repeated triggers only refresh its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 684 | <strong>PEN Ratio (Lv 60):</strong> 24%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="bashful-demon">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Bashful_Demon.webp" alt="Bashful Demon">
+    <div class="w-engine-info">
+        <h2>Bashful Demon</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Support</p>
+        <p><strong>Signature:</strong> Soukaku</p>
+        <p>Increases Ice DMG by 
+        <span class="highlight">15/17.5/20/22/24%</span>. When launching an EX Special Attack, all squad members' ATK increases by 
+        <span class="highlight">2/2.3/2.6/2.9/3.2%</span> for 12s, stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>Attack (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="kaboom-the-cannon">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Kaboom_the_Cannon.webp" alt="Kaboom the Cannon">
+    <div class="w-engine-info">
+        <h2>Kaboom the Cannon</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Support</p>
+        <p><strong>Signature:</strong> Lucy</p>
+        <p>When any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by 
+        <span class="highlight">2.5/2.8/3.2/3.6/4%</span> for 8s, stacking up to 4 times. The duration of each stack is calculated separately, and each friendly unit can provide 1 stack of the buff. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>Energy Regen (Lv 60):</strong> 50%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="slice-of-time">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Slice_of_Time.webp" alt="Slice of Time">
+    <div class="w-engine-info">
+        <h2>Slice of Time</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Support</p>
+        <p>Any squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates 
+        <span class="highlight">20/23/26/29/32 (Dodge)</span>, 
+        <span class="highlight">25/28.5/32/35.5/40 (Special)</span>, 
+        <span class="highlight">30/34.5/39/43.5/48 (Assist)</span>, 
+        <span class="highlight">35/40/45/50/55 (Chain)</span> more Decibels and generates 
+        <span class="highlight">0.7/0.8/0.9/1/1.1</span> Energy for the equipper. This effect can trigger once every 12s. The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>PEN Ratio (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="the-vault">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_The_Vault.webp" alt="The Vault">
+    <div class="w-engine-info">
+        <h2>The Vault</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Support</p>
+        <p><strong>Signature:</strong> Nicole Demara</p>
+        <p>Dealing Ether DMG using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by 
+        <span class="highlight">15/17.5/20/22/24%</span> and increases the equipper's Energy Regen by 
+        <span class="highlight">0.5/0.58/0.65/0.72/0.8</span> per second for 2s. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>Energy Regen (Lv 60):</strong> 50%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="unfettered-game-ball">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Unfettered_Game_Ball.webp" alt="Unfettered Game Ball">
+    <div class="w-engine-info">
+        <h2>Unfettered Game Ball</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Support</p>
+        <p>Whenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate against the struck enemy increases by 
+        <span class="highlight">12/13.5/15.5/17.5/20%</span> for 12s. The bonuses triggered by the same type of passive effects do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Energy Regen (Lv 60):</strong> 50%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="vortex-arrow">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Arrow.webp" alt="[Vortex] Arrow">
+    <div class="w-engine-info">
+        <h2>[Vortex] Arrow</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Stun</p>
+        <p>The equipper's attacks inflict <span class="highlight">8/9/10/11/12%</span> more Daze on their main target.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>Impact (Lv 60):</strong> 12%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="vortex-hatchet">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Hatchet.webp" alt="[Vortex] Hatchet">
+    <div class="w-engine-info">
+        <h2>[Vortex] Hatchet</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Stun</p>
+        <p>Upon entering combat or switching in, the equipper's Impact increases by 
+        <span class="highlight">9/10/11/12/13%</span> for 10s. This effect can trigger once every 20s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>Energy Regen (Lv 60):</strong> 16%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="vortex-revolver">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_29_Revolver.webp" alt="[Vortex] Revolver">
+    <div class="w-engine-info">
+        <h2>[Vortex] Revolver</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-b">B</span> | <strong>Type:</strong> Stun</p>
+        <p>EX Special Attacks inflict <span class="highlight">10/11.5/13/14.5/16%</span> more Daze.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 475 | <strong>Attack (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="starlight-engine-replica">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Starlight_Engine_Replica.webp" alt="Starlight Engine Replica">
+    <div class="w-engine-info">
+        <h2>Starlight Engine Replica</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Billy Kid</p>
+        <p>Increases the equipper's Physical DMG by 
+        <span class="highlight">36/41/46.5/52/57.5%</span> for 8s upon hitting an enemy at least 6 meters away with a Basic Attack or Dash Attack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>ATK (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="gilded-blossom">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Gilded_Blossom.webp" alt="Gilded Blossom">
+    <div class="w-engine-info">
+        <h2>Gilded Blossom</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p>ATK increases by 
+        <span class="highlight">6/6.9/7.8/8.7/9.6%</span>, and DMG dealt by EX Special Attacks increases by 
+        <span class="highlight">15/17.2/19.5/21.8/24%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>ATK (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="housekeeper">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Housekeeper.webp" alt="Housekeeper">
+    <div class="w-engine-info">
+        <h2>Housekeeper</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Corin Wickes</p>
+        <p>While off-field, Energy Regen increases by 
+        <span class="highlight">0.45/0.52/0.58/0.65/0.72</span> per second. When an EX Special Attack hits an enemy, the equipper's Physical DMG increases by 
+        <span class="highlight">3/3.5/4/4.4/4.8%</span>, stacking up to 15 times and lasting 1s. Retriggering refreshes duration.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>ATK (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="marcato-desire">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Marcato_Desire.webp" alt="Marcato Desire">
+    <div class="w-engine-info">
+        <h2>Marcato Desire</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p>When an EX Special Attack or Chain Attack hits an enemy, the equipper's ATK increases by 
+        <span class="highlight">6/6.9/7.8/8.7/9.6%</span> for 8s. While the target is under an Attribute Anomaly, this effect is increased by an additional 
+        <span class="highlight">6/6.9/7.8/8.7/9.6%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Crit Rate (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="gilded-blossom">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Gilded_Blossom.webp" alt="Gilded Blossom">
+    <div class="w-engine-info">
+        <h2>Gilded Blossom</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p>ATK increases by 
+        <span class="highlight">6/6.9/7.8/8.7/9.6%</span>, and DMG dealt by EX Special Attacks increases by 
+        <span class="highlight">15/17.2/19.5/21.8/24%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Attack (Lv 60):</strong> 25%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="cannon-rotor">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Cannon_Rotor.webp" alt="Cannon Rotor">
+    <div class="w-engine-info">
+        <h2>Cannon Rotor</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p>Increases ATK by 
+        <span class="highlight">7.5/8.6/9.7/10.8/12%</span>. Attacks that land a CRIT on an enemy will inflict an additional 200% of ATK as DMG. This effect can only be triggered once every 
+        <span class="highlight">8/7.5/7/6.5/6s</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 594 | <strong>Crit Rate (Lv 60):</strong> 20%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="drill-rig-red-axis">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Drill_Rig_-_Red_Axis.webp" alt="Drill Rig - Red Axis">
+    <div class="w-engine-info">
+        <h2>Drill Rig - Red Axis</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Anton</p>
+        <p>When launching an EX Special Attack or Chain Attack, Electric DMG from Basic Attacks and Dash Attacks increases by 
+        <span class="highlight">50/57.5/65/72.5/80%</span> for 10s. This effect can trigger once every 15s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>Energy Regen (Lv 60):</strong> 50%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="box-cutter">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Box_Cutter.webp" alt="Box Cutter">
+    <div class="w-engine-info">
+        <h2>Box Cutter</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-a">A</span> | <strong>Type:</strong> Stun</p>
+        <p><strong>Signature:</strong> Pulchra</p>
+        <p>Upon launching an Aftershock, the equipper's Physical DMG increases by 
+        <span class="highlight">15/17.3/19.5/21.8/24%</span>, and Daze inflicted increases by 
+        <span class="highlight">10/11.5/13/14.5/16%</span>, lasting 10s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 624 | <strong>Impact (Lv 60):</strong> 15%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="elegant-vanity">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Elegant_Vanity.webp" alt="Elegant Vanity">
+    <div class="w-engine-info">
+        <h2>Elegant Vanity</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Support</p>
+        <p><strong>Signature:</strong> Astra Yao</p>
+        <p>When any squad member enters the field through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, the equipper gains 
+        <span class="highlight">5/5.5/6/6.5/7</span> Energy. This effect can trigger once every 5s.</p>
+        <p>When the equipper consumes 25 or more Energy, the DMG dealt by all squad members increases by 
+        <span class="highlight">10/11.5/13/14.5/16%</span>, stacking up to 2 times, and lasting 20s. Repeated triggers refresh the duration. Only one instance of this effect can exist in the same squad.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Attack (Lv 60):</strong> 30%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="flamemaker-shaker">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Flamemaker_Shaker.webp" alt="Flamemaker Shaker">
+    <div class="w-engine-info">
+        <h2>Flamemaker Shaker</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Anomaly</p>
+        <p><strong>Signature:</strong> Burnice</p>
+        <p>While off-field, the equipper's Energy Regen increases by 
+        <span class="highlight">0.6/0.75/0.9/1.05/1.2</span> per second. When hitting an enemy with an EX Special Attack or Assist Attack, the equipper's DMG increases by 
+        <span class="highlight">3.5/4.4/5.2/6.1/7%</span>, stacking up to 10 times and lasting for 6s. This effect can trigger once every 0.3s. While off-field, the stack effect is doubled. Repeated triggers reset the duration.</p>
+        <p>Upon obtaining the DMG increase effect, if the number of current stacks is greater than or equal to 5, then the equipper's Anomaly Proficiency increases by 
+        <span class="highlight">50/62/75/87/100</span>. This Anomaly Proficiency increase does not stack and lasts for 6s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Attack (Lv 60):</strong> 30%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="hailstorm-shrine">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Hailstorm_Shrine.webp" alt="Hailstorm Shrine">
+    <div class="w-engine-info">
+        <h2>Hailstorm Shrine</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Anomaly</p>
+        <p><strong>Signature:</strong> Hoshimi Miyabi</p>
+        <p>CRIT DMG increases by 
+        <span class="highlight">50/57/65/72/80%</span>. When using an EX Special Attack or when any squad member applies an Attribute Anomaly to an enemy, the equipper's Ice DMG increases by 
+        <span class="highlight">20/23/26/29/32%</span>, stacking up to 2 times and lasting 15s. The duration of each stack is calculated separately.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 743 | <strong>Crit Rate (Lv 60):</strong> 24%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="heartstring-nocturne">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Heartstring_Nocturne.webp" alt="Heartstring Nocturne">
+    <div class="w-engine-info">
+        <h2>Heartstring Nocturne</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Evelyn</p>
+        <p>CRIT DMG increases by 
+        <span class="highlight">50/57.5/65/72.5/80%</span>. When the equipper enters the battlefield, or activates a Chain Attack or Ultimate, they gain 1 stack of Heartstring. Each stack of Heartstring allows the equipper's Chain Attack and Ultimate to ignore 
+        <span class="highlight">12.5/14.5/16.5/18.5/20%</span> of the target's Fire RES, stacking up to 2 times and lasting 30s. Repeated triggers reset the duration.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Crit Rate (Lv 60):</strong> 24%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="riot-suppressor-mark-vi">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Riot_Suppressor_Mark_VI.webp" alt="Riot Suppressor Mark VI">
+    <div class="w-engine-info">
+        <h2>Riot Suppressor Mark VI</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Zhu Yuan</p>
+        <p>Increases CRIT Rate by <span class="highlight">15%</span>. Launching an EX Special Attack grants the equipper 8 Charge stacks, up to a maximum of 8 stacks. Whenever the equipper's Basic Attack deals Ether DMG, it consumes a Charge stack and increases the skill's DMG by 
+        <span class="highlight">35%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Crit Damage (Lv 60):</strong> 48%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="severed-innocence">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Severed_Innocence.webp" alt="Severed Innocence">
+    <div class="w-engine-info">
+        <h2>Severed Innocence</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Soldier-0 Anby</p>
+        <p>CRIT DMG is increased by 
+        <span class="highlight">30/34.5/39/43.5/48%</span>. When the equipper lands a hit with a Basic Attack, Special Attack, or Aftershock, they gain 1 stack of a buff. Each stack increases the equipper's CRIT DMG by an additional 
+        <span class="highlight">10/11.5/13/14.5/16%</span>, stacking up to 3 times. The effect lasts for 30s, with each stack's duration calculated separately, and can only be triggered once per use of a skill. With all 3 stacks, the equipper's Electric DMG increases by 
+        <span class="highlight">20/23/26/29/32%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Crit DMG (Lv 60):</strong> 48%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="sharpened-stinger">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Sharpened_Stinger.webp" alt="Sharpened Stinger">
+    <div class="w-engine-info">
+        <h2>Sharpened Stinger</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Anomaly</p>
+        <p><strong>Signature:</strong> Jane Doe</p>
+        <p>Upon activating a Dash Attack, gain 1 stack of Predatory Instinct. Each stack of Predatory Instinct increases the equipper's Physical DMG by 
+        <span class="highlight">12/15/18/21/24%</span> for 10s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering Perfect Dodge, gain 3 stacks of Predatory Instinct. While Predatory Instinct is at maximum stacks, the equipper's Anomaly Buildup Rate increases by 
+        <span class="highlight">40/50/60/70/80%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Anomaly Proficiency (Lv 60):</strong> 90</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="steel-cushion">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Steel_Cushion.webp" alt="Steel Cushion">
+    <div class="w-engine-info">
+        <h2>Steel Cushion</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Nekomata</p>
+        <p>Increases Physical DMG by 
+        <span class="highlight">20/25/30/35/40%</span>. The equipper's DMG increases by 
+        <span class="highlight">25/31.5/38/44/50%</span> when attacking the enemy from behind.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 684 | <strong>Crit Rate (Lv 60):</strong> 24%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="the-brimstone">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_The_Brimstone.webp" alt="The Brimstone">
+    <p><strong>Signature:</strong> Soldier 11</p>
+    <div class="w-engine-info">
+        <h2>The Brimstone</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack</p>
+        <p>Upon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by 
+        <span class="highlight">3.5/4.4/5.2/6/7%</span> for 8s, stacking up to 8 times. This effect can trigger once every 0.5s. The duration of each stack is calculated separately.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 684 | <strong>Attack (Lv 60):</strong> 30%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="timeweaver">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Timeweaver.webp" alt="Timeweaver">
+    <div class="w-engine-info">
+        <h2>Timeweaver</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Anomaly</p>
+        <p><strong>Signature:</strong> Tsukishiro Yanagi</p>
+        <p>The equipper's Electric Anomaly Buildup Rate increases by 
+        <span class="highlight">30/35/40/45/50%</span>. When Special Attacks or EX Special Attacks hit enemies under Attribute Anomalies, the equipper's Anomaly Proficiency increases by 
+        <span class="highlight">75/85/95/105/115</span> for 15s.</p>
+        <p>When the equipper's Anomaly Proficiency is greater than or equal to 375, Disorder DMG inflicted by the equipper increases by 
+        <span class="highlight">25/27.5/30/32.5/35%</span>.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 714 | <strong>Attack (Lv 60):</strong> 30%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="tusks-of-fury">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Tusks_of_Fury.webp" alt="Tusks of Fury">
+    <div class="w-engine-info">
+        <h2>Tusks of Fury</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Defence</p>
+        <p><strong>Signature:</strong> Ceaser King</p>
+        <p>The Shield value provided by the equipper increases by 
+        <span class="highlight">30/38/46/52/60%</span>. When any squad member triggers Interrupt or Perfect Dodge, all squad members' DMG increases by 
+        <span class="highlight">18/22.5/27/31.5/36%</span> and Daze dealt increases by 
+        <span class="highlight">12/15/18/21/24%</span> for 20s. Passive effects of the same name do not stack.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Impact (Lv 60):</strong> 18%</p>
+    </div>
+</div>
+
+<div class="w-engine-card" data-name="zanshin-herb-case">
+    <img src="https://assets.onecompiler.app/42z3u6cp6/43cmubkav/W-Engine_Zanshin_Herb_Case.webp" alt="Zanshin Herb Case">
+    <div class="w-engine-info">
+        <h2>Zanshin Herb Case</h2>
+        <p><strong>Rarity:</strong> <span class="rarity-s">S</span> | <strong>Type:</strong> Attack</p>
+        <p><strong>Signature:</strong> Asaba Harumasa</p>
+        <p>CRIT Rate increases by 
+        <span class="highlight">10/11.5/13/14.5/16%</span>. Dash Attack Electric DMG increases by 
+        <span class="highlight">40/46/52/58/64%</span>. When any squad member applies an Attribute Anomaly or Stuns an enemy, the equipper's CRIT Rate increases by an additional 
+        <span class="highlight">10/11.5/13/14.5/16%</span> for 15s.</p>
+        <p><strong>Base ATK (Lv 60):</strong> 713 | <strong>Crit Damage (Lv 60):</strong> 48%</p>
+    </div>
+</div>
+
+    </main>
+    <script src="w-engines.js"></script>
+</body>
+</html>
